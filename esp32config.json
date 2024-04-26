@@ -30,6 +30,7 @@
         "controlfeed": "esp32/{clientid}/control",
 
         "loggingfeed": "esp32/{clientid}/logging",
+        "lightswitchfeed": "esp32/{clientid}/trigger",
 
         "lat_loc1": 12.345167,
         "lon_loc1": 9.876543,
