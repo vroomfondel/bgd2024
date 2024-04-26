@@ -1,0 +1,4 @@
+adafruit-ampy
+micropython-esp32-stubs
+webrepl
+
