@@ -43,7 +43,7 @@ Project goals was to setup a device which will be used to  set a timer to shut d
 ### Executing program
 
 * since the code is placed in boot.py and main.py just booting/resetting the esp32 should make this work
-* Step-by-step bullets
+
 
 ## Authors
 
@@ -59,7 +59,10 @@ Contributors names and contact info
 
 ## License
 
-This project is licensed under the LGPL where applicable/possible License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the LGPL where applicable/possible License - see the [LICENSE.md](LICENSE.md) file for details.
+Some files/part of files could be governed by different/other licenses and/or licensors, 
+such as (e.g., but not limited to) [MIT](LICENSEMIT.md) | [GPL](LICENSEGPL.md) | [LGPL](LICENSELGPL.md); so please also 
+regard/pay attention to comments in regards to that throughout the codebase / files / part of files.
 
 ## Acknowledgments
 
@@ -77,7 +80,7 @@ Inspiration, code snippets, etc.
 <br/><br/>
 [<img src="media/Bildschirmfoto_nodered.png" width="350"/>](media/Bildschirmfoto_nodered.png)<br/>
 
-#### btw. removing exif-data from jpg-files is quite easy
+#### btw. removing (relevant) exif-data from jpg-files should be quite easy
 * ```for i in *jpg ; do exif -o ${i%.jpg}_noexif.jpg --remove $i ; done```
 
 #### to find a solution for properly removing exif-data from mp4-files was quite an ordeal
