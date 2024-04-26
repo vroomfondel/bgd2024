@@ -1,4 +1,4 @@
-# Project Title
+# Some esp32 micropython lighttimer switch projectthingy
 
 Project created in course of the "Girls‘Day – Mädchen-Zukunftstag"
 
