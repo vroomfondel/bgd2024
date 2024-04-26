@@ -74,6 +74,8 @@ Inspiration, code snippets, etc.
 [<img src="media/53678942538_5d5f78f434_o_noexif.jpg" width="250"/>](media/53678942538_5d5f78f434_o_noexif.jpg)<br/>
 
 [media/53679181530_512f8441dc_vm_noexif.mp4](media/53679181530_512f8441dc_vm_noexif.mp4)<br/>
+<br/><br/>
+[<img src="media/Bildschirmfoto_nodered.png" width="350"/>](media/Bildschirmfoto_nodered.png)<br/>
 
 #### btw. removing exif-data from jpg-files is quite easy
 * ```for i in *jpg ; do exif -o ${i%.jpg}_noexif.jpg --remove $i ; done```
