@@ -73,10 +73,7 @@ Inspiration, code snippets, etc.
 [<img src="media/53677607202_37d839e11e_o_noexif.jpg" width="250"/>](media/53677607202_37d839e11e_o_noexif.jpg)
 [<img src="media/53678942538_5d5f78f434_o_noexif.jpg" width="250"/>](media/53678942538_5d5f78f434_o_noexif.jpg)<br/>
 
-<!--
-[!(renamed webm)](media/53679181530_512f8441dc_vm_noexif.webm)
-[<img src="media/53679181530_512f8441dc_vm_noexif.webm"/>](media/53679181530_512f8441dc_vm_noexif.webm)
--->
+[media/53679181530_512f8441dc_vm_noexif.mp4](media/53679181530_512f8441dc_vm_noexif.mp4)<br/>
 
 #### btw. removing exif-data from jpg-files is quite easy
 * ```for i in *jpg ; do exif -o ${i%.jpg}_noexif.jpg --remove $i ; done```
@@ -84,5 +81,5 @@ Inspiration, code snippets, etc.
 #### to find a solution for properly removing exif-data from mp4-files was quite an ordeal
 * ```ffmpeg -i 53679181530_512f8441dc_vm.mp4 -map_metadata -1 -vcodec copy -an 53679181530_512f8441dc_vm_noexif.mp4```
 * or even as webm:<br/>```ffmpeg -i 53679181530_512f8441dc_vm.mp4 -crf 40 -deadline best -vf scale=2040:-2 -an -map_metadata -1 -an 53679181530_512f8441dc_vm_noexif.webm```<br/>
-which has then to be renamed to .mp4 since it would not "play" otherwise ?!
+which has then to be renamed to .mp4 since it would not "play" otherwise ?! Giving up on video-embed in this file now...
 
